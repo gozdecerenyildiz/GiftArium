@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GiftArium.Core\GiftArium.Core.csproj" />
+    <ProjectReference Include="..\GiftArium.DataAccess\GiftArium.DataAccess.csproj" />
+    <ProjectReference Include="..\GiftArium.Entity\GiftArium.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
